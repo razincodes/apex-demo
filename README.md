@@ -1,1 +1,97 @@
-# apex-demo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Coaching Classes | Achieve Your Dreams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-blue-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="font-bold text-2xl tracking-wider">APEX <span class="text-yellow-400">ACADEMY</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-yellow-400 font-semibold transition">Home</a>
+                    <a href="#courses" class="hover:text-yellow-400 font-semibold transition">Our Courses</a>
+                    <a href="#about" class="hover:text-yellow-400 font-semibold transition">About Us</a>
+                </div>
+                <a href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20inquire%20about%20your%20coaching%20batches." target="_blank" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-md font-bold text-white transition shadow-md">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white py-20 border-b">
+        <div class="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-blue-900 mb-6">Your Path to <span class="text-blue-600">Academic Excellence</span></h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Join the top-rated coaching institute in the city. Expert faculty, proven study material, and a 98% success rate in board and competitive exams.</p>
+            <a href="#courses" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-lg transition">Explore Courses</a>
+        </div>
+    </header>
+
+    <section class="bg-blue-50 py-10 border-b">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-around text-center gap-6">
+            <div>
+                <h3 class="text-3xl font-bold text-blue-900">500+</h3>
+                <p class="text-gray-600 font-medium">Active Students</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-blue-900">10+ Years</h3>
+                <p class="text-gray-600 font-medium">Of Teaching Excellence</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-blue-900">98.4%</h3>
+                <p class="text-gray-600 font-medium">Top Tier Results</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Our Popular Courses</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-white p-6 rounded-lg shadow-md border hover:shadow-xl transition">
+                <h3 class="text-xl font-bold text-blue-800 mb-2">Class 9 & 10 Boards</h3>
+                <p class="text-gray-600 mb-4">Complete foundation batch covering Maths, Science, and English with weekly mock tests.</p>
+                <p class="font-bold text-blue-600">Starting at ₹1,500/mo</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md border hover:shadow-xl transition">
+                <h3 class="text-xl font-bold text-blue-800 mb-2">Class 11 & 12 (Science)</h3>
+                <p class="text-gray-600 mb-4">Specialized coaching for Physics, Chemistry, and Maths/Biology by industry experts.</p>
+                <p class="font-bold text-blue-600">Starting at ₹2,000/mo</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md border hover:shadow-xl transition">
+                <h3 class="text-xl font-bold text-blue-800 mb-2">Spoken English & IELTS</h3>
+                <p class="text-gray-600 mb-4">Master fluency, grammar, and exam techniques to achieve your desired band score.</p>
+                <p class="font-bold text-blue-600">Starting at ₹2,500/mo</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-10">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+            <div>
+                <h4 class="text-white text-xl font-bold tracking-wider mb-2">APEX ACADEMY</h4>
+                <p class="text-sm">123 Education Hub, MG Road<br>Gujarat, India 380001</p>
+            </div>
+            <div>
+                <p class="mb-2">Questions? Call us directly.</p>
+                <p class="text-yellow-400 font-bold text-lg">+91 98765 43210</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
